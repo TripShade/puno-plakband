@@ -54,5 +54,7 @@ FROM node:lts-alpine AS production
 COPY --chown=1000:1000 --from=build /usr/src/app/node_modules ./node_modules
 COPY --chown=1000:1000 --from=build /usr/src/app/dist ./dist
 
+USER node
+
 # # Start the server using the production build
 CMD [ "node", "dist/main.js" ]
