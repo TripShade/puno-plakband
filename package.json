@@ -1,6 +1,6 @@
 {
   "name": "puno-plakband",
-  "version": "1.0.0-rc-1",
+  "version": "1.0.0",
   "description": "Plakband voor Puno",
   "author": "Rene van Spronsen",
   "private": true,
